@@ -4,14 +4,20 @@
 }
 
 body {
-  background-color: #f6f8fc;
+  background-image: url("/assets/imgs/wallpaper.jpg");
+  background-position: top;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .content {
   width: 100vw;
   height: 100vh;
   padding: 1rem;
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  text-align: center;
 }
 
 @media screen and (min-width: 992px) {
